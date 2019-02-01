@@ -10,7 +10,7 @@ import AddBlog from '../components/blog/AddBlog.vue'
 import EditBlog from '../components/blog/EditBlog.vue'
 import Life from '../components/Life.vue'
 import Cooking from '../components/Cooking.vue'
-import Projects from '../components/projects/Projects.vue'
+import Videos from '../components/videos/Videos.vue'
 import Profile from '../components/shared/Profile.vue'
 
 Vue.use(Router)
@@ -26,7 +26,7 @@ export default new Router({
         { path: '/editblog', component: EditBlog },
         { path: '/life', component: Life },
         { path: '/cooking', component: Cooking },
-        { path: '/projects', component: Projects },
+        { path: '/videos', component: Videos },
         { path: '/login', component: Login },
         { path: '/signup', component: Signup },
         { path: '/profile', component: Profile },

@@ -3,7 +3,7 @@
     <div class="container">
         <router-link to="/home" class="nav-list-item">Home</router-link>
         <router-link to="/blog"  class="nav-list-item">Blog</router-link>
-        <router-link to="/projects"  class="nav-list-item">Videos</router-link>
+        <router-link to="/videos"  class="nav-list-item">Videos</router-link>
         <a class='nav-list-item' id='projects'  href="#" @click='showProjects = !showProjects'>
             Projects<small>&#9752;</small>
             <ul v-if='showProjects' class='ul'>
@@ -80,7 +80,7 @@ export default {
     transform: scale(1.2);
     text-decoration: none;
   }
- @media (min-width: 40rem) {
+  @media (min-width: 40rem) {
     .nav-list-item {
       font-size:2rem;
     }
@@ -91,15 +91,26 @@ export default {
   .ul{
     position: absolute;
     top:3.5rem;
-    right:-2rem;
+    /* right:-2rem; */
     list-style: none;
     font-size: 1rem;
     padding:0;
   }
   .ul li{
-    width:12rem;
+    /* position: absolute; */
+    width:11rem;
     background-color:bisque;
+    text-align: left;
   }
+  @media (max-width: 40rem) {
+    .ul {
+      top:2rem;
+    }
+    .ul li{
+      width:8.5rem;
+      font-size:0.8rem;
+    }
+  } 
   .ul li:hover{
     background-color:lightgray;
     color:purple;

@@ -4,10 +4,14 @@
             <button class="btn-green" v-if="isLoggedInAdmin" @click="showModal">Add Project</button>
         </div>  
         <div class="brief">
-            Below are the demo videos of my perojects I have worked on. <br>
-            They are hosted on github pages, to get the source code, simply click on<b> &#9432; </b> in the title bar of each panel. <br>
-            I could have also host them on AWS like this website, but I have to pay for EC2 fee, after some considerations,
-            I decide to just put them on github pages as it's free and most of my projects will be static websites.
+            <div>Below are the demo videos of my perojects I have worked on. </div>
+            <div>
+                They are hosted on github pages, to get the source code, simply click on<b> &#9432; </b> in the title bar of each panel. <br>
+            </div>
+            <div>
+                I could have also host them on AWS like this website, but I have to pay for EC2 fee, after some considerations, I decide to just put them on github pages as it's free and most of my projects will be static websites.
+            </div>
+
         </div>  
         <project-panel v-for="(project,index) in projects" :project="project" :key="project._id"/>
         <transition name="modal-fade">
@@ -30,7 +34,7 @@
    
 </template>
 <script>
-import ProjectPanel from './ProjectPanel.vue'
+import ProjectPanel from './VideosPanel.vue'
 import projectAPI from '../../services/projectAPI'
 export default {
     components:{
@@ -114,10 +118,18 @@ export default {
     font-family: 'Courgette', cursive;
 }
 .brief{
-    text-align:left;
-    width:100%;
-    margin:0;
-    padding:0.5rem 10rem;
+  width:80%;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem 1.5rem;
+}
+.brief div{
+  text-indent:1cm;
+  text-align:left;
+  font-size:1rem;
+  font-family: 'Courgette', cursive;
 }
 
 .modal-fade-enter, 
