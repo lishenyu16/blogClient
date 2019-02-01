@@ -1,7 +1,7 @@
 <template>
     <div class="topnav">
         <div class="setting aboutme">
-            <a href="https://lishenyu16.github.io/aboutMe/">About Me</a>
+            <a href="https://lishenyu16.github.io/aboutMe/" target='_blank'>About Me</a>
         </div>
         <div class="setting">
             <a v-if="!isLoggedIn" @click="login">Sign In</a>
