@@ -10,6 +10,7 @@
                 <li>&#9758;<a href="http://shenyu16.com:8081/#/" target="blank">Share Your Problems</a></li>
                 <li>&#9758;<a href="https://lishenyu16.github.io/morefun/#/main/dog" target="blank">More Fun</a></li>
                 <li>&#9758;<a href="https://lishenyu16.github.io/calculator" target="blank">Calculator</a></li>
+                <li>&#9758;<a href="https://lishenyu16.github.io/portfolio" target="blank">Portfolio</a></li>
             </ul>
         </a>
         <!-- !!!!!!!!!!!!! here you can not use router-link for @mouseover !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
