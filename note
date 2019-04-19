@@ -1,1 +1,2 @@
-when make updates, first should go to project's upper level which the 'static' folder locates, this folder is used for aws blogClient. so i should go to this path to push to github, then update from aws -> blogClient, then the updates should be seen
+when make updates, first should go to project's upper level which the 'static' folder locates, this folder is used for aws blogClient. so i should go to this path to push to github, then update from aws -> blogClient, then the updates should be seen;
+Important: after run npm run build in project, should copy 'static' folder from 'dist' folder to the project's upper lever path and replace that 'static' folder.
