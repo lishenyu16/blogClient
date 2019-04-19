@@ -9,6 +9,7 @@
             <ul v-if='showProjects' class='ul'>
                 <li>&#9758;<a href="http://shenyu16.com:8081/#/" target="blank">Share Your Problems</a></li>
                 <li>&#9758;<a href="https://lishenyu16.github.io/morefun/#/main/dog" target="blank">More Fun</a></li>
+                <li>&#9758;<a href="https://lishenyu16.github.io/burger-react/#/" target="blank">Burger Builder(React)</a></li>
                 <li>&#9758;<a href="https://lishenyu16.github.io/calculator" target="blank">Calculator</a></li>
                 <li>&#9758;<a href="https://lishenyu16.github.io/portfolio" target="blank">Portfolio</a></li>
             </ul>
