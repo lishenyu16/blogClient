@@ -1,3 +1,5 @@
+## This blog client side code is old version and not maintained any more.
+
 # blog
 
 > A Vue.js project
