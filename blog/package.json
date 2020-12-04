@@ -13,7 +13,7 @@
     "axios": "^0.18.0",
     "connect-history-api-fallback": "^1.5.0",
     "csurf": "^1.9.0",
-    "highlight.js": "^9.13.1",
+    "highlight.js": "^10.4.1",
     "quill-image-drop-module": "^1.0.3",
     "vue": "^2.5.2",
     "vue-clock2": "^1.1.5",
